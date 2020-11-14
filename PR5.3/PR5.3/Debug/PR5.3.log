@@ -1,0 +1,4 @@
+﻿  PR5.3.cpp
+C:\Users\Vladyslaw\Desktop\Student\IT-12\Mjahcich\AP\Lab_05\Part 3\PR5.3\PR5.3\PR5.3.cpp(32,23): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\Vladyslaw\Desktop\Student\IT-12\Mjahcich\AP\Lab_05\Part 3\PR5.3\PR5.3\PR5.3.cpp(46,10): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  PR5.3.vcxproj -> C:\Users\Vladyslaw\Desktop\Student\IT-12\Mjahcich\AP\Lab_05\Part 3\PR5.3\Debug\PR5.3.exe
