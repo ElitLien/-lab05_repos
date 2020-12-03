@@ -5,11 +5,11 @@
 
 using namespace std;
 
-int S0(const int K, const int N);
-int S1(const int K, const int N, const int i);
-int S2(const int K, const int N, const int& i);
-int S3(const int K, const int N, const int i, double t);
-int S4(const int K, const int N, const int i, double t);
+double S0(const int K, const int N);
+double S1(const int K, const int N, const int i);
+double S2(const int K, const int N, const int i);
+double S3(const int K, const int N, const int i, double t);
+double S4(const int K, const int N, const int i, double t);
 
 int main()
 {
@@ -24,39 +24,43 @@ int main()
 	return 0;
 }
 
-int S0(const int K, const int N)
+double S0(const int K, const int N)
 {
 	double s = 0;
-	for (int K = 1; K <= N; K++)
+	for (int i = K; i <= N; i++)
 		s += (1+sqrt(1+K*K))/(K*K);
 	return s;
 }	
-int S1(const int K, const int N, const int i)
+double S1(const int K, const int N, const int i)
 {
 	if (i > N)
 		return 0;
 	else
 		return (1 + sqrt(1 + K * K)) / (K * K) + S1(K, N, i + 1);
 }
-int S2(const int K, const int N, const int &i)	
+double S2(const int K, const int N, const int i)
 {
-	if (i < 1)
+	if (i < K)
 		return 0;
 	else
 		return (1 + sqrt(1 + K * K)) / (K * K) + S2(K, N, i - 1);
 }
-int S3(const int K, const int N, const int i, double t)
+double S3(const int K, const int N, const int i, double t)
 {
+	if (K > N)
+		return 0;
 	t = t + (1 + sqrt(1 + K * K)) / (K * K);
-	if (i >= 1)
+	if (i >= N)
 		return t;
 	else
 		return S3(K, N, i + 1, t);
 }
-int S4(const int K, const int N, const int i, double t)
+double S4(const int K, const int N, const int i, double t)
 {
-	t = t + (1 + sqrt(1 + K * K)) / (K * K);
-	if (i <= 1)
+	if (K > N)
+		return 0;
+	t  = t + (1 + sqrt(1 + K * K)) / (K * K);
+	if (i <= K)
 		return t;
 	else
 		return S4(K, N, i - 1, t);

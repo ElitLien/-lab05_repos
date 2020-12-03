@@ -1,7 +1,7 @@
 ﻿  UnitTest4.cpp
-C:\Users\Vladyslaw\Desktop\Student\IT-12\Mjahcich\AP\Lab_05\Part 4\PR5.4\PR5.4\PR5.4.cpp(32,9): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-C:\Users\Vladyslaw\Desktop\Student\IT-12\Mjahcich\AP\Lab_05\Part 4\PR5.4\PR5.4\PR5.4.cpp(39,42): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-C:\Users\Vladyslaw\Desktop\Student\IT-12\Mjahcich\AP\Lab_05\Part 4\PR5.4\PR5.4\PR5.4.cpp(46,42): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-C:\Users\Vladyslaw\Desktop\Student\IT-12\Mjahcich\AP\Lab_05\Part 4\PR5.4\PR5.4\PR5.4.cpp(52,10): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-C:\Users\Vladyslaw\Desktop\Student\IT-12\Mjahcich\AP\Lab_05\Part 4\PR5.4\PR5.4\PR5.4.cpp(60,10): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\Vladyslaw\Desktop\Student\IT-12\Mjahcich\AP\Lab_05\Part 4\PR5.4\UnitTest4\UnitTest4.cpp(20,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Vladyslaw\Desktop\Student\IT-12\Mjahcich\AP\Lab_05\Part 4\PR5.4\UnitTest4\UnitTest4.cpp(21,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Vladyslaw\Desktop\Student\IT-12\Mjahcich\AP\Lab_05\Part 4\PR5.4\UnitTest4\UnitTest4.cpp(22,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Vladyslaw\Desktop\Student\IT-12\Mjahcich\AP\Lab_05\Part 4\PR5.4\UnitTest4\UnitTest4.cpp(23,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Vladyslaw\Desktop\Student\IT-12\Mjahcich\AP\Lab_05\Part 4\PR5.4\UnitTest4\UnitTest4.cpp(24,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   UnitTest4.vcxproj -> C:\Users\Vladyslaw\Desktop\Student\IT-12\Mjahcich\AP\Lab_05\Part 4\PR5.4\Debug\UnitTest4.dll
